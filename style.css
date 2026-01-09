@@ -1,0 +1,45 @@
+body {
+  background-color: #0a1a3a; /* dark blue */
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.item {
+  background: #132b5c;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+button {
+  background-color: blue;
+  color: #0a1a3a;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.checkout {
+  display: block;
+  margin: 20px auto;
+}
+
