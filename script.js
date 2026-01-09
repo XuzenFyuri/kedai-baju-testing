@@ -75,7 +75,7 @@ function checkout() {
 
   message += `\nTotal: RM${total}`;
 
-  const sellerNumber = "60123456789"; // tukar nombor ni
+  const sellerNumber = "601168476061"; // tukar nombor ni
   const url = `https://wa.me/${sellerNumber}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }
